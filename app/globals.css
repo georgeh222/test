@@ -1,0 +1,8 @@
+cat > app/globals.css <<'EOF'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* MapLibre styles (global) */
+@import url("https://unpkg.com/maplibre-gl@4.5.0/dist/maplibre-gl.css");
+EOF
